@@ -1,11 +1,5 @@
 # MongoDB Atlas Pulumi Module for Planton Cloud
 
-## Overview
-
-The MongoDB Atlas Pulumi module for Planton Cloud enables the seamless deployment of MongoDB Atlas clusters across various cloud providers. This module integrates tightly with Planton Cloud's API resources, which follow a Kubernetes-like structure, providing developers with a standardized way to define and manage cloud infrastructure through YAML configuration files. The module is designed to simplify the process of provisioning MongoDB Atlas clusters by abstracting the complexities of individual cloud provider APIs and infrastructure management tools.
-
-With this module, developers can define cluster configurations, including cloud provider settings, instance sizes, cluster types, and more, all within a single YAML file. The module then automatically provisions the necessary cloud resources, applies the configuration, and returns the relevant details, such as connection endpoints and unique resource IDs, in the `status.stackOutputs`. This allows for efficient monitoring and integration into existing DevOps workflows.
-
 ## Key Features
 
 - **Unified API Resource Modeling**: The module utilizes a Kubernetes-style API resource structure, which ensures a standardized format across different cloud infrastructures and services.
