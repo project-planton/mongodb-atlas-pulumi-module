@@ -1,10 +1,10 @@
 package pkg
 
 import (
-	"github.com/plantoncloud/project-planton/apis/zzgo/cloud/planton/apis/code2cloud/v1/atlas/mongodbatlas"
+	mongodbatlasv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/apis/provider/atlas/mongodbatlas/v1"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
 )
 
-func Resources(ctx *pulumi.Context, stackInput *mongodbatlas.MongodbAtlasStackInput) error {
+func Resources(ctx *pulumi.Context, stackInput *mongodbatlasv1.MongodbAtlasStackInput) error {
 	return nil
 }
