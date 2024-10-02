@@ -1,7 +1,7 @@
 package main
 
 import (
-	mongodbatlasv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/apis/provider/atlas/mongodbatlas/v1"
+	mongodbatlasv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/provider/atlas/mongodbatlas/v1"
 	"github.com/pkg/errors"
 	"github.com/plantoncloud/mongodb-atlas-pulumi-module/pkg"
 	"github.com/plantoncloud/pulumi-module-golang-commons/pkg/stackinput"
